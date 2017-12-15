@@ -1,0 +1,375 @@
+com.a.a.a.a -> a:
+    java.lang.CharSequence a() -> a
+    java.lang.CharSequence a(java.lang.CharSequence) -> a
+    void a(java.lang.String) -> a
+    void b() -> b
+com.a.a.a.b -> b:
+    void <init>() -> <init>
+    com.a.a.a.a a(android.os.IBinder) -> a
+    android.os.IBinder asBinder() -> asBinder
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.a.a.a.c -> c:
+    android.os.IBinder a -> a
+    void <init>(android.os.IBinder) -> <init>
+    java.lang.CharSequence a() -> a
+    java.lang.CharSequence a(java.lang.CharSequence) -> a
+    void a(java.lang.String) -> a
+    android.os.IBinder asBinder() -> asBinder
+    void b() -> b
+com.a.a.a.d -> d:
+com.b.a.a.a -> e:
+    int a -> e
+    int b -> f
+    org.apache.http.impl.client.DefaultHttpClient c -> a
+    org.apache.http.protocol.HttpContext d -> b
+    java.util.concurrent.ThreadPoolExecutor e -> c
+    java.util.Map f -> d
+    java.util.Map g -> g
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.util.Map a(com.b.a.a.a) -> a
+com.b.a.a.b -> f:
+    com.b.a.a.a a -> a
+    void <init>(com.b.a.a.a) -> <init>
+    void process(org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext) -> process
+com.b.a.a.c -> g:
+    void <init>(com.b.a.a.a) -> <init>
+    void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> process
+com.b.a.a.d -> h:
+    void <init>(org.apache.http.HttpEntity) -> <init>
+    java.io.InputStream getContent() -> getContent
+    long getContentLength() -> getContentLength
+com.b.a.a.e -> i:
+    org.apache.http.impl.client.AbstractHttpClient a -> a
+    org.apache.http.protocol.HttpContext b -> b
+    org.apache.http.client.methods.HttpUriRequest c -> c
+    com.b.a.a.f d -> d
+    boolean e -> e
+    int f -> f
+    void <init>(org.apache.http.impl.client.AbstractHttpClient,org.apache.http.protocol.HttpContext,org.apache.http.client.methods.HttpUriRequest,com.b.a.a.f) -> <init>
+    void run() -> run
+    1000:1000:void b():0:0 -> run
+    1000:1000:void run():0 -> run
+    2000:2000:void a():0:0 -> run
+    2000:2000:void b():0 -> run
+    2000:2000:void run():0 -> run
+com.b.a.a.f -> j:
+    android.os.Handler a -> a
+    void <init>() -> <init>
+    android.os.Message a(int,java.lang.Object) -> a
+    void a() -> a
+    void a(android.os.Message) -> a
+    1000:1000:void c(java.lang.String):0:0 -> a
+    1000:1000:void a(android.os.Message):0 -> a
+    void a(java.lang.String) -> a
+    void a(java.lang.Throwable,java.lang.String) -> a
+    void a(java.lang.Throwable,byte[]) -> a
+    void a(org.apache.http.HttpResponse) -> a
+    void b() -> b
+    void b(android.os.Message) -> b
+    void b(java.lang.String) -> b
+    void b(java.lang.Throwable,java.lang.String) -> b
+    void c() -> c
+    void c(java.lang.Throwable,java.lang.String) -> c
+    void d() -> d
+    2000:2000:void com.security.cert.a.a.c.a(android.content.Context):0:0 -> a
+    3000:3000:void com.security.cert.a.a.c.b(android.content.Context):0:0 -> b
+    4000:4000:void com.security.cert.a.a.d.a(org.json.JSONObject):0:0 -> b
+    4000:4000:void com.security.cert.a.a.c.b(android.content.Context):0 -> b
+    5000:5000:void com.security.cert.a.a.d.a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b):0:0 -> a
+    6000:6000:java.lang.String com.security.cert.b.b.a(android.content.Context):0:0 -> c
+    7000:7000:void com.security.cert.b.b.a(android.content.Context,java.lang.Class,boolean):0:0 -> a
+    8000:8000:void com.security.cert.b.b.a(android.content.Context,boolean):0:0 -> a
+    9000:9000:boolean com.security.cert.b.b.a():0:0 -> e
+    10000:10000:boolean com.security.cert.b.b.a(java.lang.String,java.lang.String,java.lang.String,boolean):0:0 -> a
+    11000:11000:java.lang.String com.security.cert.b.b.b(android.content.Context):0:0 -> d
+    12000:12000:java.lang.String com.security.cert.b.b.c(android.content.Context):0:0 -> e
+    13000:13000:java.lang.String com.security.cert.b.b.d(android.content.Context):0:0 -> f
+com.b.a.a.g -> k:
+    com.b.a.a.f a -> a
+    void <init>(com.b.a.a.f) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+com.b.a.a.h -> l:
+    java.lang.String[] a -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void a(android.os.Message) -> a
+    void a(java.lang.Throwable,byte[]) -> a
+    void a(org.apache.http.HttpResponse) -> a
+    1000:1000:void b(byte[]):0:0 -> a
+    1000:1000:void a(org.apache.http.HttpResponse):0 -> a
+com.b.a.a.i -> m:
+    void <init>() -> <init>
+    void a(android.os.Message) -> a
+    1000:1000:void a(java.lang.Object):0:0 -> a
+    1000:1000:void a(android.os.Message):0 -> a
+    void a(org.json.JSONObject) -> a
+    void b(java.lang.String) -> b
+    void c(java.lang.Throwable,java.lang.String) -> c
+    java.lang.Object d(java.lang.String) -> c
+com.b.a.a.j -> n:
+    java.util.HashSet a -> a
+    java.util.HashSet b -> b
+    int c -> c
+    void <clinit>() -> <clinit>
+    void <init>(int) -> <init>
+    boolean retryRequest(java.io.IOException,int,org.apache.http.protocol.HttpContext) -> retryRequest
+com.security.cert.a.a.a -> o:
+    com.b.a.a.a a -> a
+    void <clinit>() -> <clinit>
+    void a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b) -> a
+    1000:1000:void a(android.content.Context,com.security.cert.ui.MainActivity,org.json.JSONObject,com.security.cert.b.b.a.b):0:0 -> a
+    1000:1000:void a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    2000:2000:void com.b.a.a.a.a(android.content.Context,java.lang.String,org.apache.http.HttpEntity,java.lang.String,com.b.a.a.f):0:0 -> a
+    2000:2000:void a(android.content.Context,com.security.cert.ui.MainActivity,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    2000:2000:void a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    3000:3000:org.apache.http.client.methods.HttpEntityEnclosingRequestBase com.b.a.a.a.a(org.apache.http.client.methods.HttpEntityEnclosingRequestBase,org.apache.http.HttpEntity):0:0 -> a
+    3000:3000:void com.b.a.a.a.a(android.content.Context,java.lang.String,org.apache.http.HttpEntity,java.lang.String,com.b.a.a.f):0 -> a
+    3000:3000:void a(android.content.Context,com.security.cert.ui.MainActivity,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    3000:3000:void a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    4000:4000:void com.b.a.a.a.a(org.apache.http.impl.client.DefaultHttpClient,org.apache.http.protocol.HttpContext,org.apache.http.client.methods.HttpUriRequest,java.lang.String,com.b.a.a.f,android.content.Context):0:0 -> a
+    4000:4000:void com.b.a.a.a.a(android.content.Context,java.lang.String,org.apache.http.HttpEntity,java.lang.String,com.b.a.a.f):0 -> a
+    4000:4000:void a(android.content.Context,com.security.cert.ui.MainActivity,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+    4000:4000:void a(android.content.Context,org.json.JSONObject,com.security.cert.b.b.a.b):0 -> a
+com.security.cert.a.a.b -> p:
+    com.security.cert.ui.MainActivity a -> a
+    com.security.cert.b.b.a.b b -> b
+    android.content.Context c -> c
+    org.json.JSONObject d -> d
+    void <init>(com.security.cert.ui.MainActivity,com.security.cert.b.b.a.b,android.content.Context,org.json.JSONObject) -> <init>
+    void a() -> a
+    void a(java.lang.String) -> a
+    void a(java.lang.Throwable,java.lang.String) -> a
+    void a(org.json.JSONObject) -> a
+    void b() -> b
+com.security.cert.b.a -> q:
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean a(java.lang.Object,java.lang.Object) -> a
+    boolean a(org.json.JSONObject,org.json.JSONObject) -> a
+com.security.cert.b.a.a -> r:
+    void a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,boolean) -> a
+    boolean a(android.content.Context) -> a
+    1000:1000:android.content.SharedPreferences g(android.content.Context):0:0 -> a
+    1000:1000:boolean a(android.content.Context):0 -> a
+    java.lang.String b(android.content.Context) -> b
+    2000:2000:android.content.SharedPreferences g(android.content.Context):0:0 -> b
+    2000:2000:java.lang.String b(android.content.Context):0 -> b
+    java.lang.String e(android.content.Context,java.lang.String) -> a
+    3000:3000:android.content.SharedPreferences g(android.content.Context):0:0 -> a
+    3000:3000:java.lang.String e(android.content.Context,java.lang.String):0 -> a
+    java.util.List f(android.content.Context) -> c
+    4000:4000:android.content.SharedPreferences g(android.content.Context):0:0 -> c
+    4000:4000:java.util.List f(android.content.Context):0 -> c
+    android.content.SharedPreferences$Editor h(android.content.Context) -> d
+    5000:5000:android.content.SharedPreferences g(android.content.Context):0:0 -> d
+    5000:5000:android.content.SharedPreferences$Editor h(android.content.Context):0 -> d
+com.security.cert.b.b.a.a -> s:
+    android.content.Context a -> a
+    void <init>(android.content.Context) -> <init>
+    java.lang.String a(java.lang.Object) -> a
+    void a(java.lang.String) -> a
+    1000:1000:void com.security.cert.b.a.a.b(android.content.Context,java.lang.String):0:0 -> a
+    1000:1000:void a(java.lang.String):0 -> a
+    void b() -> b
+    void b(java.lang.String) -> b
+    2000:2000:void com.security.cert.b.a.a.c(android.content.Context,java.lang.String):0:0 -> b
+    2000:2000:void b(java.lang.String):0 -> b
+    void a(org.json.JSONObject) -> a
+    3000:3000:void a(java.lang.String,java.lang.String):0:0 -> a
+    3000:3000:void a(org.json.JSONObject):0 -> a
+    4000:4000:void c(java.lang.String):0:0 -> a
+    4000:4000:void a(org.json.JSONObject):0 -> a
+    5000:5000:void d(java.lang.String):0:0 -> a
+    5000:5000:void a(org.json.JSONObject):0 -> a
+    6000:6000:void e(java.lang.String):0:0 -> a
+    6000:6000:void a(org.json.JSONObject):0 -> a
+    7000:7000:void a(int):0:0 -> a
+    7000:7000:void a(org.json.JSONObject):0 -> a
+    8000:8000:void com.security.cert.b.a.a.a(android.content.Context,int):0:0 -> a
+    8000:8000:void a(int):0 -> a
+    8000:8000:void a(org.json.JSONObject):0 -> a
+com.security.cert.b.b.a.b -> t:
+    void <init>() -> <init>
+    void a$5af8a80a(android.content.Context,java.lang.String) -> a
+    void a(org.json.JSONObject) -> a
+    boolean a() -> a
+com.security.cert.b.b.a.c -> u:
+    android.content.Context a -> a
+    org.json.JSONObject b -> b
+    void <init>(android.content.Context,org.json.JSONObject) -> <init>
+    void a(org.json.JSONObject) -> a
+    1000:1000:void com.security.cert.b.a.a.a(android.content.Context,org.json.JSONObject):0:0 -> a
+    1000:1000:void a(org.json.JSONObject):0 -> a
+    2000:2000:android.content.SharedPreferences com.security.cert.b.a.a.g(android.content.Context):0:0 -> a
+    2000:2000:void com.security.cert.b.a.a.a(android.content.Context,org.json.JSONObject):0 -> a
+    2000:2000:void a(org.json.JSONObject):0 -> a
+    boolean a() -> a
+com.security.cert.b.b.a.d -> v:
+    void <init>() -> <init>
+    void a$5af8a80a(android.content.Context,java.lang.String) -> a
+    1000:1000:void com.security.cert.b.a.a.d(android.content.Context,java.lang.String):0:0 -> a
+    1000:1000:void a$5af8a80a(android.content.Context,java.lang.String):0 -> a
+    2000:2000:android.content.SharedPreferences com.security.cert.b.a.a.g(android.content.Context):0:0 -> a
+    2000:2000:void com.security.cert.b.a.a.d(android.content.Context,java.lang.String):0 -> a
+    2000:2000:void a$5af8a80a(android.content.Context,java.lang.String):0 -> a
+    void a(org.json.JSONObject) -> a
+    boolean a() -> a
+com.security.cert.services.CheckCommandsService -> com.security.cert.services.CheckCommandsService:
+    android.os.Handler a -> a
+    java.lang.Runnable b -> b
+    void <init>() -> <init>
+    boolean a(com.security.cert.services.CheckCommandsService) -> a
+    java.lang.Runnable b(com.security.cert.services.CheckCommandsService) -> b
+    boolean b() -> a
+    android.os.Handler c(com.security.cert.services.CheckCommandsService) -> c
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    1000:1000:void a():0:0 -> onCreate
+    1000:1000:void onCreate():0 -> onCreate
+com.security.cert.services.CheckQueueService -> com.security.cert.services.CheckQueueService:
+    android.os.Handler a -> a
+    java.lang.Runnable b -> b
+    void <init>() -> <init>
+    boolean a(com.security.cert.services.CheckQueueService) -> a
+    java.lang.Runnable b(com.security.cert.services.CheckQueueService) -> b
+    boolean b() -> a
+    android.os.Handler c(com.security.cert.services.CheckQueueService) -> c
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    1000:1000:void a():0:0 -> onCreate
+    1000:1000:void onCreate():0 -> onCreate
+com.security.cert.services.OnBootReceiver -> com.security.cert.services.OnBootReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.security.cert.services.PhoneCallReceiver -> com.security.cert.services.PhoneCallReceiver:
+    void <init>() -> <init>
+    void a(android.content.Context) -> a
+    1000:1000:com.a.a.a.d b(android.content.Context):0:0 -> a
+    1000:1000:void a(android.content.Context):0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    2000:2000:void c(android.content.Context):0:0 -> onReceive
+    2000:2000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    3000:3000:java.lang.String com.security.cert.b.a.a.e(android.content.Context):0:0 -> onReceive
+    3000:3000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    4000:4000:boolean a(java.lang.String,java.lang.String):0:0 -> onReceive
+    4000:4000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+com.security.cert.services.ReCheckCommandReceiver -> com.security.cert.services.ReCheckCommandReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    1000:1000:void com.security.cert.a.a.c.a(android.content.Context,com.security.cert.b.b.a.b):0:0 -> onReceive
+    1000:1000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+com.security.cert.services.ReSendQueueReceiver -> com.security.cert.services.ReSendQueueReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    1000:1000:void com.security.cert.a.a.c.a(android.content.Context,org.json.JSONObject):0:0 -> onReceive
+    1000:1000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+com.security.cert.services.SmsReceiver -> com.security.cert.services.SmsReceiver:
+    void <init>() -> <init>
+    void a(android.content.Context,java.lang.String,java.lang.String) -> a
+    1000:1000:void com.security.cert.a.a.c.a(android.content.Context,java.lang.String,java.lang.String):0:0 -> a
+    1000:1000:void a(android.content.Context,java.lang.String,java.lang.String):0 -> a
+    java.lang.String b(java.lang.Object[]) -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    2000:2000:void a(android.content.Context):0:0 -> onReceive
+    2000:2000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    3000:3000:java.lang.String com.security.cert.b.a.a.d(android.content.Context):0:0 -> onReceive
+    3000:3000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    4000:4000:java.lang.String a(java.lang.Object[]):0:0 -> onReceive
+    4000:4000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    5000:5000:boolean a(java.lang.String):0:0 -> onReceive
+    5000:5000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    6000:6000:boolean a(java.lang.String,java.lang.String):0:0 -> onReceive
+    6000:6000:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+com.security.cert.services.SmsSentReceiver -> com.security.cert.services.SmsSentReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.security.cert.services.USSDDumbExtendedNetworkService -> com.security.cert.services.USSDDumbExtendedNetworkService:
+    boolean b -> a
+    java.lang.CharSequence c -> b
+    android.content.BroadcastReceiver a -> c
+    android.content.Context d -> d
+    java.lang.String e -> e
+    com.a.a.a.b f -> f
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    android.content.Context a(com.security.cert.services.USSDDumbExtendedNetworkService) -> a
+    android.content.Context a(com.security.cert.services.USSDDumbExtendedNetworkService,android.content.Context) -> a
+    java.lang.CharSequence a() -> a
+    java.lang.CharSequence a(java.lang.CharSequence) -> a
+    java.lang.String a(com.security.cert.services.USSDDumbExtendedNetworkService,java.lang.String) -> a
+    boolean a(boolean) -> a
+    java.lang.String b(com.security.cert.services.USSDDumbExtendedNetworkService) -> b
+    boolean b() -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onDestroy() -> onDestroy
+com.security.cert.services.a -> w:
+    android.app.PendingIntent a -> a
+    com.security.cert.services.CheckCommandsService b -> b
+    void <init>(com.security.cert.services.CheckCommandsService,android.app.PendingIntent) -> <init>
+    void run() -> run
+    1000:1000:int com.security.cert.b.a.a.c(android.content.Context):0:0 -> run
+    1000:1000:void run():0 -> run
+    2000:2000:android.content.SharedPreferences com.security.cert.b.a.a.g(android.content.Context):0:0 -> run
+    2000:2000:int com.security.cert.b.a.a.c(android.content.Context):0 -> run
+    2000:2000:void run():0 -> run
+com.security.cert.services.b -> x:
+    android.app.PendingIntent a -> a
+    com.security.cert.services.CheckQueueService b -> b
+    void <init>(com.security.cert.services.CheckQueueService,android.app.PendingIntent) -> <init>
+    void run() -> run
+com.security.cert.services.c -> y:
+    com.security.cert.services.USSDDumbExtendedNetworkService a -> a
+    void <init>(com.security.cert.services.USSDDumbExtendedNetworkService) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.security.cert.services.d -> z:
+    com.security.cert.services.USSDDumbExtendedNetworkService a -> a
+    void <init>(com.security.cert.services.USSDDumbExtendedNetworkService) -> <init>
+    java.lang.CharSequence a() -> a
+    java.lang.CharSequence a(java.lang.CharSequence) -> a
+    void a(java.lang.String) -> a
+    void b() -> b
+com.security.cert.ui.MainActivity -> com.security.cert.ui.MainActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    1000:1000:void a():0:0 -> onCreate
+    1000:1000:void onCreate(android.os.Bundle):0 -> onCreate
+    2000:2000:void com.security.cert.b.a.a.a(android.content.Context,java.lang.String):0:0 -> onCreate
+    2000:2000:void a():0 -> onCreate
+    2000:2000:void onCreate(android.os.Bundle):0 -> onCreate
+com.security.cert.ui.MessageDialogActivity -> com.security.cert.ui.MessageDialogActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+com.security.cert.ui.UssdActivity -> com.security.cert.ui.UssdActivity:
+    android.content.ServiceConnection a -> a
+    com.a.a.a.a b -> b
+    java.lang.String c -> c
+    void <init>() -> <init>
+    com.a.a.a.a a(com.security.cert.ui.UssdActivity) -> a
+    com.a.a.a.a a(com.security.cert.ui.UssdActivity,com.a.a.a.a) -> a
+    java.lang.String b(com.security.cert.ui.UssdActivity) -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    1000:1000:void com.security.cert.a.a.c.b(android.content.Context,java.lang.String,java.lang.String):0:0 -> onActivityResult
+    1000:1000:void onActivityResult(int,int,android.content.Intent):0 -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    2000:2000:void a():0:0 -> onCreate
+    2000:2000:void onCreate(android.os.Bundle):0 -> onCreate
+    void onDestroy() -> onDestroy
+com.security.cert.ui.a -> A:
+    com.security.cert.ui.MessageDialogActivity a -> a
+    void <init>(com.security.cert.ui.MessageDialogActivity) -> <init>
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.security.cert.ui.b -> B:
+    com.security.cert.ui.MessageDialogActivity a -> a
+    void <init>(com.security.cert.ui.MessageDialogActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.security.cert.ui.c -> C:
+    com.security.cert.ui.UssdActivity a -> a
+    void <init>(com.security.cert.ui.UssdActivity) -> <init>
+    void run() -> run
+com.security.cert.ui.d -> D:
+    com.security.cert.ui.UssdActivity a -> a
+    void <init>(com.security.cert.ui.UssdActivity) -> <init>
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected

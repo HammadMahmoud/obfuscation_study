@@ -1,0 +1,59 @@
+in_apk /Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2.apk
+out_apk /Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/t16_app2.apk
+I: Using Apktool 2.0.1 on app2.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /Users/Mahmoud/Library/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+path:/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/a/a/a/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/a/a/a/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/a/a/a/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/a/a/a/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/e.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/f.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/g.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/h.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/i.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/b/a/a/j.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/a/a/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/a/a/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/a/a/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/a/a/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/a/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/b/a/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/b/a/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/b/a/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/b/b/a/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/CheckCommandsService.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/CheckQueueService.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/OnBootReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/PhoneCallReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/ReCheckCommandReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/ReSendQueueReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/SmsReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/SmsSentReceiver.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/services/USSDDumbExtendedNetworkService.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/a.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/b.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/c.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/d.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/MainActivity.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/MessageDialogActivity.smali
+/Users/Mahmoud/Documents/PhD_projects/Obfuscation/test_dataset/app2/app2/smali/com/security/cert/ui/UssdActivity.smali

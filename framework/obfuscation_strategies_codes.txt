@@ -1,0 +1,8 @@
+cf: control flow
+ir: identifier renaming
+enc: string encryption
+mr: member reordering
+cr: code reordering
+manifest:change manifest file, add permissions
+cr_junk: code reorder and junk code insertion
+ref_reflection

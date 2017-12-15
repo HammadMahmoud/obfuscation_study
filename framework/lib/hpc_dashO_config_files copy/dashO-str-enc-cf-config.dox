@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dasho version="8.1.0">
+    <propertylist>
+        <property name="projectname" value="dashO-app"/>
+        <property name="sdk.dir" value="/share/seal/hammadm/android-sdks/platforms"/>
+        <property name="AndroidManifestFile" value="${dasho.project}/working-dir/apktool-output/AndroidManifest.xml"/>
+        <property name="AndroidManifestOutput" value="${dasho.project}/"/>
+    </propertylist>
+    <global>
+        <option>NOMAKEPUBLIC</option>
+        <option>IGNORENOTFOUNDCLASSES</option>
+        <option>FORNAMEDETECTION</option>
+        <option>FORCE</option>
+    </global>
+    <classpath>
+        <pathelement location="/share/seal/hammadm/android-sdks/platforms/android-21/android.jar"/>
+        <pathelement location="/share/seal/hammadm/android-sdks/support/android-support-v4.jar"/>
+        <pathelement location="/share/seal/hammadm/android-sdks/support/android-support-v7-appcompat.jar"/>
+    </classpath>
+    <entrypoints>
+        <quickjar path="output_dex2jar.jar"/>
+    </entrypoints>
+    <report path="${dasho.project}-report_mahmoud-str-enc-cf.txt"/>
+    <output merge="false" zipAlign="false">
+        <jar path="dashO-str-enc-cf.jar"/>
+    </output>
+    <removal>
+        <debug/>
+        <attributes/>
+    </removal>
+    <methodCallRemoval/>
+    <renaming option="off" renameAnnotations="off">
+        <mapping>
+            <mapreport path="${dasho.project}-mapreport_mahmoud-str-enc-cf.txt"/>
+            <mapoutput overwrite="true" path="${dasho.project}.map"/>
+        </mapping>
+    </renaming>
+    <optimization option="on"/>
+    <controlflow option="on"/>
+    <stringencrypt option="on" level="2" implementations="2">
+        <seOutput path="${dasho.project}-se.map"/>
+    </stringencrypt>
+</dasho>
